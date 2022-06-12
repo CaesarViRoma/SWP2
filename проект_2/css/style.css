@@ -1,0 +1,281 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* 1 страница */
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+.stars_bg {
+    background-image: url("../img/Zvezdnye-Voi_774_ny-fendomy-clone-trooper-Erik-M1999-4989578.jpg");
+    height: 100vh;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav_flex {
+    display: flex;
+    width: 100%;
+    height: 45px;
+    justify-content: space-evenly;
+}
+
+.txt {
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.table_wdt {
+    width: 800px;
+    margin-top: 20px;
+    padding: 10px 10px 10px;
+    text-align: center;
+    border-spacing: 1px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+
+.col {
+    width: 100px;
+}
+
+.cont_chart {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.chart_abs {
+    position: absolute;
+    width: 203px;
+    padding: 10px 5px 3px;
+    height: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 500px;
+}
+
+.btn {
+	display: inline-block;	
+	box-sizing: border-box;
+	padding: 0px 25px;
+    width: 100%;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	height: 46px;
+	text-decoration: none;
+	color: #444;
+	background-color: #fff;
+	box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
+	transition: box-shadow 0.2s;
+}
+.btn:focus-visible {
+	border: 1px solid #4c51f9;
+	outline: none;
+}
+.btn:hover {
+	transition: all 0.2s;
+	box-shadow: 0 7px 14px rgba(2, 217, 255, 0.1), 0 3px 6px rgb(0, 215, 253);
+}
+.btn:active {
+	background-color: #808080;
+}
+.btn:disabled {
+	background-color: #eee;
+	border-color: #eee;
+	color: #444;
+	cursor: not-allowed;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 500px;
+    max-width: 80%;
+  }
+
+  .modal.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+.modal-header {
+    padding: 20px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+  }
+  
+.modal-header .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+.modal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+.modal-body {
+    padding: 20px 25px;
+  }
+  
+#overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+  }
+  
+#overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+/* 2 страница */
+
+.inf_bg {
+    background-image: url("../img/bgc.png");
+    height: 140vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.inf_border {
+    border: 3px solid white;
+    max-width: 1000px;
+    height: 845px;
+    color: white;
+    box-sizing: border-box;
+    margin-left: 170px;
+    margin-top: 50px;
+}
+
+.inf_txt {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.inf_img {
+    width: 40%;
+    height: 40%;
+}
+
+/* 2 страница */
+
+.moment_bg {
+    background-image: url("../img/bg.png");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.txt_black {
+    color: black;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.txt_black a {
+    color: black;
+}
+
+.container {
+    margin-left: 100px;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-xl-6 {
+    flex: 0 0 auto;
+    width: 50%
+}
+
+.moment_bg .txt {
+    color: black;
+}
+
+.moment_table table {
+    border-collapse: collapse;
+}
+
+.moment_table {
+    padding: 5px 7px;
+}
+
+.moment_table td {
+    font-size: 16px;
+    padding: 20px 41px;
+    border: 2px solid gray;
+    border-left: none;
+    border-top: none;
+}
+
+.moment_flex {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+
+.moment_img_1 {
+    max-width: 82%;
+    height: 100%;
+    margin-left: 25px;
+}
+
+.moment_img_2 {
+    max-width: 40%;
+    min-height: 187px;
+    margin-left: 25px;
+}
+
+.moment_img_3 {
+    max-width: 40.5%;
+    height: 100%;
+}
+
