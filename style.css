@@ -12,7 +12,7 @@ a {
 }
 
 .stars_bg {
-    background-image: url("../img/Zvezdnye-Voi_774_ny-fendomy-clone-trooper-Erik-M1999-4989578.jpg");
+    background-image: url("img/Zvezdnye-Voi_774_ny-fendomy-clone-trooper-Erik-M1999-4989578.jpg");
     height: 100vh;
     min-height: 100vh;
     width: 100%;
@@ -168,7 +168,7 @@ a {
 /* 2 страница */
 
 .inf_bg {
-    background-image: url("../img/bgc.png");
+    background-image: url("img/bgc.png");
     height: 140vh;
     width: 100%;
     background-position: center;
@@ -201,7 +201,7 @@ a {
 /* 2 страница */
 
 .moment_bg {
-    background-image: url("../img/bg.png");
+    background-image: url("img/bg.png");
     height: 100vh;
     width: 100%;
     background-position: center;
